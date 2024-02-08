@@ -1,6 +1,10 @@
+from django.shortcuts import render
+
+# Create your views here.
 from django.http import HttpResponse
 
-def profile(request):
-    return HttpResponse('Wellcome to Company profile ')
+def about(request):
+    return HttpResponse('About Page')
+
 def contact(request):
-    return HttpResponse('Zero One Eight  is a company that offers consulting services in the field of IT and Cybersecurity')
+    return HttpResponse('Contact Page')
